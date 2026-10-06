@@ -34,4 +34,7 @@ public class Prenda {
         public float calcular_descuento(){
             return precio*(0.0f);
         }
+        public float precioConDescuento(){
+            return (precio-calcular_descuento());
+        }
 }
